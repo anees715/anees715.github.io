@@ -1,14 +1,14 @@
 body{
 	background: #ffffff;
 	overflow-x: hidden;
-    font-family: 'Mate', serif;
+    	font-family: 'Mate', serif;
 }
 ul, li {
 	
 	padding: 0;
 }
 header{
-    font-family: 'Share', cursive;
+    	font-family: 'Share', cursive;
 }
 
 header img{
@@ -32,11 +32,14 @@ header img:hover{
 }
 .header-intro{
 	height: 100vh;
-    display: flex;
-    justify-content: left;
-    align-items: center;
+    	display: flex;
+    	justify-content: left;
+    	align-items: center;
 	padding-left: 100px;
 	padding-right: 100px;
+	display: -webkit-flex;
+   	-webkit-justify-content: left;
+  	-webkit-align-items: center;
 }
 .header-intro h2{
 	font-size: 70px;
