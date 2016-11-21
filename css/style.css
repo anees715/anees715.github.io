@@ -13,8 +13,13 @@ header{
 
 header img{
 	border-radius: 50%;
+	height: 250px;
+	width: 250px;
 }
-
+header img:hover{
+	 -webkit-filter:blur(1px);
+            filter: blur(1px);
+}
 .bg-light{
 	background: #f3f3f3;
 	height: 100vh;
@@ -117,11 +122,20 @@ header img{
 	font-size: 20px;
 }
 .work{
-	border: 1px solid #ffffff;
+	border: 2px solid #ffffff;
 	padding: 15px;
 	margin-bottom: 20px;
+	transition: all 1s ease-in 0.1s;
+	-webkit-transition: all 1s ease-in 0.1s;
+	-moz-transition: all 1s ease-in 0.1s;
 }
-
+.work:hover{
+	border-color: #000000;
+}
+.work h2{
+	text-align: center;
+	font-size: 25px;
+}
 
 .pace {
   -webkit-pointer-events: none;
@@ -319,11 +333,10 @@ footer{
 }
 
 .time-wrapper {
-  display: inline;
-  
+  display: inline
   line-height: 1em;
   font-size: 0.66666em;
-  color: rgb(250,80,80);
+  color: #505050;
   vertical-align: middle;
 }
 
