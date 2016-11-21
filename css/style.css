@@ -1,7 +1,8 @@
 body{
-	background: #ffffff;
+	background: url('../images/bg.png');
+	background-size: cover;
 	overflow-x: hidden;
-    	font-family: 'Mate', serif;
+    font-family: 'Mate', serif;
 }
 ul, li {
 	
@@ -480,6 +481,11 @@ footer{
 	margin: 1em 4em 0 4em;
 }
 
+}
+
+.fadein
+{
+    opacity:0;
 }
 
 
