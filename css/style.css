@@ -1,9 +1,11 @@
+/* the style */
 body{
 	background: url('../images/bg.png');
 	background-size: cover;
 	overflow-x: hidden;
     font-family: 'Mate', serif;
 }
+
 ul, li {
 	
 	padding: 0;
